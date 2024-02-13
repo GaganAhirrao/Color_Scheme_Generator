@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Scheme Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <input type="color" name="select-colour" id="select-colour">
+            <select name="select-colour-tone" id="select-colour-tone">
+                <option value="monochrome" class="opt">Monochrome</option>
+                <option value="monochrome-dark" class="opt">Monochrome-dark</option>
+                <option value="monochrome-light" class="opt">Monochrome-light</option>
+                <option value="analogic" class="opt">Analogic</option>
+                <option value="complement" class="opt">Complement</option>
+                <option value="analogic-complement" class="opt">Analogic-complement</option>
+                <option value="triad" class="opt">Triad</option>
+            </select>
+            <button class="btn">Get colour scheme</button>
+        </div>
+        <div class="colours">
+            <div class="one colour-item border">
+                <p class="copy">Copy</p>
+            </div>
+            <div class="two colour-item border">
+                <p class="copy">Copy</p>
+            </div>
+            <div class="three colour-item border">
+                <p class="copy">Copy</p>
+            </div>
+            <div class="four colour-item border">
+                <p class="copy">Copy</p>
+            </div>
+            <div class="five colour-item border">
+                <p class="copy">Copy</p>
+            </div>
+        </div>
+        <div class="colour-codes">
+            <p class="hex-code-one">#231942</p>
+            <p class="hex-code-two">#5e548e</p>
+            <p class="hex-code-three">#9f86c0</p>
+            <p class="hex-code-four">#be95c4</p>
+            <p class="hex-code-five">#e0b1cb</p>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+
+</html>
